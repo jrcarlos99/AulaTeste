@@ -5,7 +5,8 @@ A aula começou pedindo para ser criado uma conta no GitHub e em seguida fomos i
   na aba Home, escrever o nome do repositório na opção **Repository Name** e em seguida clicar em **Create new repository**
 Foi ensinado em seguida o que é o **README.MD**, tanto sobre o que significa a extensão **.MD**(Markdown) como o que acontece se o nome for qualquer outro além do **README**. É nesse arquivo que contém informações importantes para o entendimento do projeto. Ele pode conter: Instrução de como instalar e usar caso o projeto seja um software, documentação onde é detalhado as principais funcionalidades, requisitos e dependências do projeto.
 
-
+  ## Commit Changes ##
+Foi muito falado sobre a importância de **nunca** esquecer de commitar uma alteração feita em seu projeto, principalmente no **README.md**. Ninguém gostaria de perder as alterações feitas por não ter clicado em um botão, então foi bem enfatizado durante a aula. 
 
   ## Fork ##
 Ainda falando sobre repositórios foi mostrado também a oportunidade de copiar repositorios de outras pessoas a partir de uma ferramenta chamada **Fork**. Esta ferramenta não faz esses repositórios necessariamente seu mas é possível alterar algumas coisas quando se julgar necessário. 
@@ -24,8 +25,8 @@ que voce fez no código"
 apontando
 >- git push origin master
 
-## Pull Request ##
+  ## Pull Request ##
 É possível enviar suas modificações para o criador do repositório original para mostrar as melhorias que você fez e ver se ele aprova tais mudanças a partir do **Pull Request**
 
-## Merge ##
+  ## Merge ##
 Quando tais alterações forem aceitas pelo criador original(também chamado como **Branch Master**)temos o que chamamos de Merge. O merge no GitHub é o processo de combinar as mudanças feitas em uma branch (__ramificação__) com outra branch, geralmente a principal (como a **main** ou **master**). Esse processo é essencial para integrar novos recursos, correções ou melhorias no código principal do projeto.
