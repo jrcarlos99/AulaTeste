@@ -9,28 +9,25 @@ console.log(`${myName} é de ${myCity}`)
 
 
 /* Operação Matemática*/
+let num1 = prompt("Digite o primeiro número para a soma: ");
+let num2 = prompt("Digite o segundo número para a soma: ");
+const soma = parseFloat(num1) + parseFloat(num2);
+console.log("A soma é: " + soma);
 
-let num1 = prompt("Digite o número ")
-let num2 = prompt("Digite outro número ")
-const soma = parseInt(num1)+parseInt(num2);
-console.log("A soma é:" + soma);
+let num3 = prompt("Digite o primeiro número para a subtração: ");
+let num4 = prompt("Digite o segundo número para a subtração: ");
+const sub = parseFloat(num3) - parseFloat(num4);
+console.log("O resultado da subtração é: " + sub);
 
-let num3 = prompt("Digite o número ")
-let num4 = prompt("Digite outro número ")
-const sub = parseInt(num3)-parseInt(num4);
-console.log("O resultado é: "+sub);
+let num5 = prompt("Digite o primeiro número para a multiplicação: ");
+let num6 = prompt("Digite o segundo número para a multiplicação: ");
+const mult = parseFloat(num5) * parseFloat(num6);
+console.log("O resultado da multiplicação é: " + mult);
 
-
-let num5 = prompt("Digite o número ")
-let num6 = prompt("Digite outro número ")
-const mult = parseInt(num5)*parseInt(num6);
-console.log("O resultado é: "+mult);
-
-
-let num7 = prompt("Digite o número ")
-let num8 = prompt("Digite outro número ")
-const dividir = parseInt(num7)/parseInt(num8);
-console.log("O resultado é: "+dividir);
+let num7 = prompt("Digite o primeiro número para a divisão: ");
+let num8 = prompt("Digite o segundo número para a divisão: ");
+const dividir = parseFloat(num8) !== 0 ? parseFloat(num7) / parseFloat(num8) : "Erro: Não é possível dividir por zero.";
+console.log("O resultado da divisão é: " + dividir);
 
 //Boletim//
 
