@@ -9,6 +9,8 @@ console.log(`${myName} é de ${myCity}`)
 
 
 /* Operação Matemática*/
+const prompt = require('prompt-sync')();
+
 let num1 = prompt("Digite o primeiro número para a soma: ");
 let num2 = prompt("Digite o segundo número para a soma: ");
 const soma = parseFloat(num1) + parseFloat(num2);
